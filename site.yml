@@ -1,0 +1,9 @@
+
+---
+- hosts: all
+  remote_user: pi
+  sudo: True
+  gather_facts: yes
+
+  roles:
+     - common
